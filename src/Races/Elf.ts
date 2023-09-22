@@ -13,11 +13,11 @@ class Elf extends Race {
     Elf._elfInstance += 1;
   }
 
-  override get maxLifePoints(): number {
+  public get maxLifePoints(): number {
     return this._maxLifePoints;
   }
 
-  static override createdRacesInstances(): number {
+  public static createdRacesInstances(): number {
     return this._elfInstance;
   }
 }
