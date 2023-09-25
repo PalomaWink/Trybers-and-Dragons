@@ -1,10 +1,10 @@
-import Archetype, { Mage } from './Archetypes';
+/* import Archetype, { Mage } from './Archetypes';
 import Energy from './Energy';
 import Fighter from './Fighter';
-import Race, { Elf } from './Races';
+import Race, { Elf } from './Races'; */
 
-class Character implements Fighter {
-  private _race: Race;
+class Character {
+  /* private _race: Race;
   private _archetype: Archetype;
   private _maxLifePoints: number;
   private _lifePoints: number;
@@ -31,8 +31,8 @@ class Character implements Fighter {
     * (Math.floor(10) - Math.ceil(1) + Math.ceil(1));
     this._strength = Math.random() 
     * (Math.floor(10) - Math.ceil(1) + Math.ceil(1));
-    /* this._energy.type_  */
-  }
+  } */
+
 }
 
 export default Character;
