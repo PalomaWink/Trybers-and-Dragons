@@ -21,6 +21,15 @@ O projeto é estruturado em várias classes e interfaces que representam os dife
 - [ESLint](https://eslint.org/): Uma ferramenta de linting para JavaScript e TypeScript.
 - [Docker](https://www.docker.com/): Uma plataforma para desenvolver, enviar e executar aplicativos.
 
+## Scripts
+
+O arquivo package.json contém vários scripts que podem ser executados com `npm run <script>`:
+
+- `start`: Executa o projeto TypeScript.
+- `dev`: Inicia o servidor em modo de desenvolvimento com o nodemon.
+- `pretest`: Remove todos os arquivos e diretorios da pasta `dist`.
+- `lint`: Executa o linter ESLint.
+
 ## Como Executar o Projeto
 
 1. Clone o repositório
@@ -29,7 +38,7 @@ O projeto é estruturado em várias classes e interfaces que representam os dife
 ### Com Docker
 
 1. Inicie os containers `docker-compose up -d`
-2. Acesse o terminal do container e inicie a aplicação `docker exec -it trybers_and_dragons bash` 
+2. Acesse o terminal do container e inicie a aplicação `docker exec -it trybers_and_dragons bash`
 3. Instale as dependencias dentro do container também `npm install`
 
 ### Sem Docker
